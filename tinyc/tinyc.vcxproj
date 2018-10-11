@@ -152,12 +152,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="parse.cpp" />
     <ClCompile Include="scan.cpp" />
     <ClCompile Include="tinyc.cpp" />
     <ClCompile Include="util.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="globals.h" />
+    <ClInclude Include="parse.h" />
     <ClInclude Include="scan.h" />
     <ClInclude Include="util.h" />
   </ItemGroup>

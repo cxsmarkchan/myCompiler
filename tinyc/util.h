@@ -5,6 +5,12 @@
 
 #include "globals.h"
 
-void printToken(TokenType, const char);
+void printToken(TokenType, const char*);
+
+// syntax tree
+TreeNode* newStmtNode(StmtKind);
+TreeNode* newExpNode(ExpKind);
+
+void printTree(TreeNode*);
 
 #endif

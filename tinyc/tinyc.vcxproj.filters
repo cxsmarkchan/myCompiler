@@ -24,6 +24,9 @@
     <ClCompile Include="scan.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="parse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="globals.h">
@@ -33,6 +36,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="scan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="parse.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

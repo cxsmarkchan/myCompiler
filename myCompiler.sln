@@ -7,6 +7,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tinyc", "tinyc\tinyc.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tm", "tm\tm.vcxproj", "{F5FD28E8-5ECF-4302-8986-8FC9DD81B5DF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30D9AA7E-7B0E-4664-8199-6EF60DD4E7BD}"
+	ProjectSection(SolutionItems) = preProject
+		sample.tny = sample.tny
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
